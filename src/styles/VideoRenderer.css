@@ -1,0 +1,25 @@
+.video-item {
+	width: 320px;
+	margin: 15px 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 5px 10px #000;
+	cursor: pointer;
+}
+.video-item .video-pic {
+	width: 100%;
+	height: 180px;
+}
+.video-item .video-pic img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.video-item .video-txt {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.video-item .video-txt h3 {
+	font-weight: 300;
+}
